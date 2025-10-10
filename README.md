@@ -1,7 +1,6 @@
 # PX4-Modification-Example-Files
 
-This repository provides **example PX4 source code modifications** to complement the [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide) and [BRAT Framework](https://github.com/gurt1223/brat).  
-These examples enable features such as **custom uORB topic logging**, **user-defined parameters**, **custom telemetry streams**, and **firmware memory reduction** for PX4-based flight controllers.
+This repository provides **example PX4 source code modifications** to complement the appendices of Garrett Asper's Master's Thesis, as well as the [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide) and [BRAT Framework](https://github.com/gurt1223/brat) repositories. These example files enable features such as **custom uORB topic logging**, **user-defined parameters**, **custom telemetry streams**, and **firmware memory reduction** for PX4-based flight controllers.
 
 ---
 
@@ -23,7 +22,7 @@ These examples enable features such as **custom uORB topic logging**, **user-def
   Example files showing how to define and integrate custom PX4 parameters.
 
 - **Telemetry/**  
-  Example MAVLink stream modifications for adding a custom telemetry channel.
+  Example MAVLink stream modifications for enabling a custom telemetry message.
 
 - **Flash Memory/cubeorange/**  
   Firmware and configuration adjustments to reduce flash usage on the CubeOrange autopilot.
@@ -31,11 +30,11 @@ These examples enable features such as **custom uORB topic logging**, **user-def
 ---
 
 ## How to Use
-1. Follow the setup steps in the [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide).  
+1. Follow the setup steps in the [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide) to set up the UAV Toolbox and its dependent software.  
 2. Choose which modifications you want to apply (e.g., parameters, telemetry, or logging).  
-3. Copy the example files into the corresponding PX4 source directories.  
+3. Copy the example files into the corresponding PX4 source directories (outlined in the thesis appendix in [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide)).  
 4. Rebuild the PX4 firmware and upload it to your flight controller.  
-5. Use alongside the [BRAT Framework](https://github.com/gurt1223/brat) for algorithm testing and logging in MATLAB/Simulink.
+5. Use the modifications to enhance your own MATLAB/Simulink logic or the logic you create in the [BRAT Framework](https://github.com/gurt1223/brat) for algorithm testing.
 
 ---
 
