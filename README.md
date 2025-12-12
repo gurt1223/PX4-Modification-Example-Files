@@ -1,4 +1,4 @@
-# PX4-Modification-Example-Files
+# PX4 Modification Example Files
 
 This repository provides **example PX4 source code modifications** to complement the appendices of Garrett Asper's Master's Thesis, as well as the [UAV-Toolbox-Setup-Guide](https://github.com/gurt1223/UAV-Toolbox-Setup-Guide) and [BRAT Framework](https://github.com/gurt1223/brat) repositories. These example files enable features such as **custom uORB topic logging**, **user-defined parameters**, **custom telemetry streams**, and **firmware memory reduction** for PX4-based flight controllers.
 
